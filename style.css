@@ -6,7 +6,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    outline: 1px solid black;
+    outline: 1px solid black; 
 }
 body{
     width: 1440px;
@@ -75,7 +75,7 @@ header{
         position: relative;      
     }
     header nav#main_nav ul li{
-        margin: 18px 50px 18px 0px;
+        margin: 18px 55px 18px 0px;
     }
     header nav#main_nav ul li img{
         background-color: #1D1F21;
@@ -86,7 +86,7 @@ header{
         margin-left: 30px;
     }
     header nav#main_nav ul li:nth-child(2){
-        margin-left: 179px;
+        margin-left: 255px;
     }
     header nav#main_nav ul li a{
         text-decoration: none;
@@ -97,7 +97,8 @@ header{
         background-color: #05AAE1;
         text-decoration: none;
         border-radius: 2px;
-        padding: 9px 38px;
+        margin-right: 0px;
+        padding: 9px 41px;
     }
 
     header img{
@@ -137,16 +138,18 @@ header{
 section{
     position: relative;
     width: 1440px;
-    top: 472px;
-    background-color: #F8FAFF;
-    padding-bottom: 100px;
 }
-    section div#popular_funding_methods{
+    section#Coding_Dojo_Finance_Content{
+        top: 472px;
+        background-color: #F8FAFF;
+        padding-bottom: 100px;
+    }
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods{
         width: 678px;
         margin: 79px 0px 0px 143px;
         display: inline-block;
     }
-    section div#popular_funding_methods h1{
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods h1{
         width: 670px;
         font-family: defaultFont;
         font-style: normal;
@@ -156,10 +159,10 @@ section{
         letter-spacing: 0.6px;
         margin-bottom: 45px;
     }
-    section div#popular_funding_methods a{
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods a{
         text-decoration: none;
     }
-    section div#popular_funding_methods div.cards{
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div.cards{
         min-height: 130px;
         background-color: #FFFFFF;
         color: #333333;
@@ -167,7 +170,7 @@ section{
         border-radius: 2px;
         margin: 0px 0px 18px 0px;
     }
-    section div#popular_funding_methods div.cards img{
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div.cards img{
         height: 88px;
         width: 88px;
         left: 7px;
@@ -175,27 +178,31 @@ section{
         border-radius: 0px;
         margin: 22px 0px 19px 29px;
     }
-    section div#popular_funding_methods div.cards img.show, section div#popular_funding_methods div#AscentFinancingLogo img.show, section div#popular_funding_methods div#ClimbCreditLogo img.show {
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div.cards img.show, 
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div#AscentFinancingLogo img.show, 
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div#ClimbCreditLogo img.show {
         height: 11px;
         width: 19px;
     }
-    section div#popular_funding_methods div.cards img.showReverse, section div#popular_funding_methods div#AscentFinancingLogo img.showReverse, section div#popular_funding_methods div#ClimbCreditLogo img.showReverse {
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div.cards img.showReverse, 
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div#AscentFinancingLogo img.showReverse, 
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div#ClimbCreditLogo img.showReverse {
         transform: rotateX(180deg);
     }
-    section div#popular_funding_methods div#AscentFinancingLogo img{ 
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div#AscentFinancingLogo img{ 
         width: 103px;
         height: 54px;
         margin: 37px 0px 19px 29px;
     }
-    section div#popular_funding_methods div#ClimbCreditLogo img{
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div#ClimbCreditLogo img{
         width: 92px;
         height: 22px;
         margin: 50px 0px 50px 41px;
     }
-    section div#popular_funding_methods div#ClimbCreditLogo img.show{
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div#ClimbCreditLogo img.show{
         margin-left: 30px;  
     }
-    section div#popular_funding_methods div.cards p{
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div.cards p{
         display: inline-block;
         width: 420.66px;
         height: 51.59px;
@@ -207,7 +214,7 @@ section{
         margin: 0px 0px 0px 45px;
         vertical-align: middle;
     }
-    section div#popular_funding_methods div.cards p.moreDescription{
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div.cards p.moreDescription{
         width: 580px;
         min-height: 177px;
         font-weight: 400;
@@ -215,10 +222,11 @@ section{
         line-height: 160%;
         margin-bottom: 30px
     }
-    section div#popular_funding_methods div#AscentFinancingLogo p{
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div#AscentFinancingLogo p{
         margin: 15px 0px 0px 30px;
     }
-    section div#popular_funding_methods div#AscentFinancingLogo p.moreDescription, section div#popular_funding_methods div#ClimbCreditLogo p.moreDescription {
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div#AscentFinancingLogo p.moreDescription, 
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div#ClimbCreditLogo p.moreDescription {
         width: 580px;
         min-height: 177px;
         font-weight: 400;
@@ -226,28 +234,29 @@ section{
         line-height: 160%;
         margin-bottom: 30px;
     }
-    section div#popular_funding_methods div#ClimbCreditLogo p{
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div#ClimbCreditLogo p{
         margin: 15px 0px 0px 30px;
     }
-    section div#popular_funding_methods div.cards p span{
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div.cards p span{
         display: block;
         font-style: normal;
         font-weight:100;
         font-size: 18px;
         line-height: 27px;
     }
-    section div#popular_funding_methods div.cards p.moreDescription span{
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div.cards p.moreDescription span{
         margin: 20px 0px 0px 0px;
         font-size: 14px;
         line-height: 130%;
     }
-    section div#popular_funding_methods div#AscentFinancingLogo p.moreDescription span,  section div#popular_funding_methods div#ClimbCreditLogo p.moreDescription span{ 
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div#AscentFinancingLogo p.moreDescription span,  
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods div#ClimbCreditLogo p.moreDescription span{ 
         margin: 20px 0px 0px 0px;
         font-size: 14px;
         line-height: 130%;
     }
 
-    section div.signupCards{
+    section#Coding_Dojo_Finance_Content div.signupCards{
         position: fixed;
         width: 406px;
         height: 441px;
@@ -260,7 +269,7 @@ section{
         font-style: normal;
         color: #333333;
     }
-    section div.signupCards h1{
+    section#Coding_Dojo_Finance_Content div.signupCards h1{
         font-weight: 700;
         font-size: 40px;
         line-height: 45px;
@@ -270,7 +279,7 @@ section{
         width: 275px;
         height: 156px;
     }
-    section div.signupCards p{
+    section#Coding_Dojo_Finance_Content div.signupCards p{
         font-weight: 400;
         font-size: 16px;
         line-height: 22px;
@@ -278,7 +287,7 @@ section{
         letter-spacing: 0.3px;
         margin-bottom: 56px;
     }
-    section div.signupCards a{
+    section#Coding_Dojo_Finance_Content div.signupCards a{
         text-decoration: none;
         color: #FFFFFF;
         background-color: #05AAE1;
@@ -290,5 +299,94 @@ section{
         line-height: 19px;
         text-align: center;
         letter-spacing: 0.6px;
+    }
+    section#Coding_Dojo_Saving_Content{
+        top: 473px;
+        height: 463px;
+        background-color: #505170;
+        color: #FFFFFF;
+        padding: 62px 601px 20px 151px;
+    }
+    section#Coding_Dojo_Saving_Content h1{
+        width: 559px;
+        font-family: defaultFont;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 49px;
+        letter-spacing: 0.6px;
+        margin-bottom: 35px;
+    }
+    section#Coding_Dojo_Saving_Content div#savingsReviews div.savingReview{
+        display: inline-block;
+        vertical-align: top;
+        font-family: defaultFont;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 0.6px;
+    }
+    section#Coding_Dojo_Saving_Content div#savingsReviews #savingStart{
+        background-color: #05AAE1;
+        position: absolute;
+        left: 142px;
+        top: 170px;
+        width: 50.5px;
+        height: 50.5px;
+        border-radius: 100px;
+    }
+    section#Coding_Dojo_Saving_Content div#savingsReviews div.savingReview div{
+        width: 130px;
+        height: 41px;
+        background-color: #05AAE1;
+        text-align: center;
+        padding: 11px 0px; 
+        margin-top: 12px;  
+    }
+    section#Coding_Dojo_Saving_Content div#savingsReviews div.savingReview div#payInFull{
+        border-radius: 0px 100px 100px 0px;
+    }
+    section#Coding_Dojo_Saving_Content div#savingsReviews div.savingReview p{
+        width: 121px;
+        text-align: left;
+        font-family: defaultFont;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.6px;
+        margin-top: 22px;
+    }
+    section#Coding_Dojo_Saving_Content div#savingsReviews div#totalSaved{
+        display: inline-block;
+        font-family: defaultFont;
+        font-style: normal;
+        text-align: center;
+        margin: 10px 0px 0px 31px;
+    }
+    section#Coding_Dojo_Saving_Content div#savingsReviews div#totalSaved label{
+        font-weight: 100;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.6px;
+    }
+    section#Coding_Dojo_Saving_Content div#savingsReviews div#totalSaved h2{
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 32px;
+        margin-top: 4px;
+        letter-spacing: 0.6px;
+    }
+    section#Coding_Dojo_Saving_Content div#savingsReviews p{
+        width: 538.68px;
+        font-family: defaultFont;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.6px;
+        margin-top: 18px; 
     }
    
