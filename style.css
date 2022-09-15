@@ -6,7 +6,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    outline: 1px solid black; 
+    /* outline: 1px solid black;  */
 }
 body{
     width: 1440px;
