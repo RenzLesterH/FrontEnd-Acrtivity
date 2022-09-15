@@ -215,7 +215,7 @@ section{
     section div#popular_funding_methods div#AscentFinancingLogo p{
         margin: 15px 0px 0px 30px;
     }
-    section div#popular_funding_methods div#AscentFinancingLogo p.moreDescription{
+    section div#popular_funding_methods div#AscentFinancingLogo p.moreDescription, section div#popular_funding_methods div#ClimbCreditLogo p.moreDescription {
         width: 580px;
         min-height: 177px;
         font-weight: 400;
@@ -238,7 +238,7 @@ section{
         font-size: 14px;
         line-height: 130%;
     }
-    section div#popular_funding_methods div#AscentFinancingLogo p.moreDescription span{
+    section div#popular_funding_methods div#AscentFinancingLogo p.moreDescription span,  section div#popular_funding_methods div#ClimbCreditLogo p.moreDescription span{ 
         margin: 20px 0px 0px 0px;
         font-size: 14px;
         line-height: 130%;
