@@ -1,0 +1,291 @@
+@font-face {
+    font-family: defaultFont;
+    src: url(assets/fonts/ProximaNova-Regular.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid black; */
+}
+body{
+    width: 1440px;
+    margin: 0px auto;
+}
+header{
+    position: relative;
+}
+    header nav ul{
+        display: inline-block;
+        padding: 0;
+        list-style-type: none;
+        width: 1440px;
+    }
+    header nav ul li{
+        display: inline-block;
+    }
+    header nav#sub_nav{
+        background-color: #272634;
+        color: #FFFFFF;
+        font-family: defaultFont;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.6px;
+    }
+    header nav#sub_nav ul{  
+        margin: 12px 0px;
+    }
+    header nav#sub_nav ul li:first-child{
+        margin: 0px 229px 0px 598px;
+    }
+    header nav#sub_nav ul li:first-child + li a{
+        margin: 0px 65px 0px 0px;
+        color: #05AAE1;
+        text-decoration: none;
+    }
+    header nav#sub_nav ul li:first-child + li img{
+        position: absolute;
+        top: 13px;
+        right: 390px;
+        background-color: #272634;
+        Width:16px;
+        Height:16px;
+    }
+    header nav#sub_nav ul li:last-child a{
+        color: white;
+        border: 1px cyan solid;
+        padding: 10px 28px;
+        text-decoration: none;
+    }
+
+    header nav#main_nav{
+        background-color: #1D1F21;
+        color: white;
+        font-family: defaultFont;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.430769px;
+    }
+    header nav#main_nav ul{
+        margin-top: 0px;
+        position: relative;      
+    }
+    header nav#main_nav ul li{
+        margin: 18px 50px 18px 0px;
+    }
+    header nav#main_nav ul li img{
+        background-color: #1D1F21;
+        width: 100px;
+        height: 32px;
+        position: absolute;
+        top: 12px;
+        margin-left: 30px;
+    }
+    header nav#main_nav ul li:nth-child(2){
+        margin-left: 179px;
+    }
+    header nav#main_nav ul li a{
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    header nav#main_nav ul li:last-child a{
+        color: white;
+        background-color: #05AAE1;
+        text-decoration: none;
+        border-radius: 2px;
+        padding: 9px 38px;
+    }
+
+    header img{
+        position: absolute;
+        width: 1440px;
+        height: 485px;;
+        top: 103px;
+    }
+    header div#financing_101_banner_moto{
+        color: #FFFFFF;
+        position: absolute;
+        width: 550px;
+        height: 147px;
+        left: 142px;
+        top: 224px;
+    }
+    header div#financing_101_banner_moto h1{
+        font-family: defaultFont;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 115.2%;
+        /* or 74px */
+        letter-spacing: 0.6px;
+    }
+    header div#financing_101_banner_moto p{
+        font-family: defaultFont;
+        font-style: normal;
+        width: 450px;
+        height: 54px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 13px;
+    }
+
+section{
+    position: relative;
+    width: 1440px;
+    height: 1085px;
+    top: 472px;
+    background-color: #F8FAFF;
+}
+    section div#popular_funding_methods{
+        width: 678px;
+        margin: 79px 0px 0px 143px;
+        display: inline-block;
+    }
+    section div#popular_funding_methods h1{
+        width: 670px;
+        font-family: defaultFont;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 49px;
+        letter-spacing: 0.6px;
+        margin-bottom: 45px;
+    }
+    section div#popular_funding_methods a{
+        text-decoration: none;
+    }
+    section div#popular_funding_methods div.cards{
+        min-height: 130px;
+        background-color: #FFFFFF;
+        color: #333333;
+        box-shadow: 0px 6px 8px rgba(42, 104, 129, 0.06);
+        border-radius: 2px;
+        margin: 0px 0px 18px 0px;
+    }
+    section div#popular_funding_methods div.cards img{
+        height: 88px;
+        width: 88px;
+        left: 7px;
+        top: 5px;
+        border-radius: 0px;
+        margin: 22px 0px 19px 29px;
+    }
+    section div#popular_funding_methods div.cards img.show, section div#popular_funding_methods div#AscentFinancingLogo img.show, section div#popular_funding_methods div#ClimbCreditLogo img.show {
+        height: 11px;
+        width: 19px;
+    }
+    section div#popular_funding_methods div.cards img.showReverse, section div#popular_funding_methods div#AscentFinancingLogo img.showReverse, section div#popular_funding_methods div#ClimbCreditLogo img.showReverse {
+        transform: rotateX(180deg);
+    }
+    section div#popular_funding_methods div#AscentFinancingLogo img{ 
+        width: 103px;
+        height: 54px;
+        margin: 37px 0px 19px 29px;
+    }
+    section div#popular_funding_methods div#ClimbCreditLogo img{
+        width: 92px;
+        height: 22px;
+        margin: 50px 0px 50px 41px;
+    }
+    section div#popular_funding_methods div.cards p{
+        display: inline-block;
+        width: 420.66px;
+        height: 51.59px;
+        font-family: defaultFont;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        margin: 0px 0px 0px 45px;
+        vertical-align: middle;
+    }
+    section div#popular_funding_methods div.cards p.moreDescription{
+        width: 580px;
+        min-height: 177px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        margin-bottom: 30px
+    }
+    section div#popular_funding_methods div#AscentFinancingLogo p{
+        margin: 15px 0px 0px 30px;
+    }
+    section div#popular_funding_methods div#AscentFinancingLogo p.moreDescription{
+        width: 580px;
+        min-height: 177px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        margin-bottom: 30px;
+    }
+    section div#popular_funding_methods div#ClimbCreditLogo p{
+        margin: 15px 0px 0px 30px;
+    }
+    section div#popular_funding_methods div.cards p span{
+        display: block;
+        font-style: normal;
+        font-weight:100;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    section div#popular_funding_methods div.cards p.moreDescription span{
+        margin: 20px 0px 0px 0px;
+        font-size: 14px;
+        line-height: 130%;
+    }
+    section div#popular_funding_methods div#AscentFinancingLogo p.moreDescription span{
+        margin: 20px 0px 0px 0px;
+        font-size: 14px;
+        line-height: 130%;
+    }
+
+    section div.signupCards{
+        position: fixed;
+        width: 406px;
+        height: 441px;
+        right: 698px;
+        top: 193px;
+        background-color: #FFFFFF;
+        filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.25));
+        padding: 50px 67px 69px 65px;
+        font-family: defaultFont;
+        font-style: normal;
+        color: #333333;
+    }
+    section div.signupCards h1{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 45px;
+        /* or 112% */
+        letter-spacing: 0.6px;
+        margin-bottom: 3px;
+        width: 275px;
+        height: 156px;
+    }
+    section div.signupCards p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        /* or 138% */
+        letter-spacing: 0.3px;
+        margin-bottom: 56px;
+    }
+    section div.signupCards a{
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #05AAE1;
+        box-shadow: 0px 6px 6px rgba(11, 31, 39, 0.08);
+        border-radius: 2px;
+        padding: 22px 55px;
+        margin: 0px 0px 0px 1px;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        letter-spacing: 0.6px;
+    }
+   
