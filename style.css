@@ -6,7 +6,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    outline: 1px solid black; 
+    /* outline: 1px solid black;  */
 }
 body{
     font-family: defaultFont;
@@ -41,20 +41,12 @@ header{
         margin: 12px 0px;
     }
     header nav#sub_nav ul li:first-child{
-        margin: 0px 229px 0px 598px;
+        margin: 0px 221px 0px 598px;
     }
-    header nav#sub_nav ul li:first-child + li a{
-        margin: 0px 65px 0px 0px;
+    header nav#sub_nav ul li:nth-child(2) a{
+        margin: 0px 45px 0px 13px;
         color: #05AAE1;
         text-decoration: none;
-    }
-    header nav#sub_nav ul li:first-child + li img{
-        position: absolute;
-        top: 13px;
-        right: 390px;
-        background-color: #272634;
-        Width:16px;
-        Height:16px;
     }
     header nav#sub_nav ul li:last-child a{
         color: white;
@@ -141,7 +133,7 @@ section{
         width: 678px;
         display: inline-block;
     }
-    section#Coding_Dojo_Finance_Content div#popular_funding_methods h1{
+    section#Coding_Dojo_Finance_Content div#popular_funding_methods h2{
         width: 670px;
         font-style: normal;
         font-weight: 700;
@@ -259,7 +251,7 @@ section{
         color: #333333;
         z-index:100;
     }
-    section#Coding_Dojo_Finance_Content div.signupCards h1{
+    section#Coding_Dojo_Finance_Content div.signupCards h2{
         font-weight: 700;
         font-size: 40px;
         line-height: 45px;
@@ -294,9 +286,9 @@ section{
         height: 463px;
         background-color: #505170;
         color: #FFFFFF;
-        padding: 62px 601px 20px 151px;
+        padding: 62px 601px 20px 248px;
     }
-    section#Coding_Dojo_Saving_Content h1{
+    section#Coding_Dojo_Saving_Content h2{
         width: 559px;
         font-style: normal;
         font-weight: 700;
@@ -318,7 +310,7 @@ section{
     section#Coding_Dojo_Saving_Content div#savingsReviews #savingStart{
         background-color: #05AAE1;
         position: absolute;
-        left: 142px;
+        left: 238px; 
         top: 170px;
         width: 50.5px;
         height: 50.5px;
@@ -349,7 +341,7 @@ section{
         display: inline-block;  
         font-style: normal;
         text-align: center;
-        margin: 10px 0px 0px 31px;
+        margin: 10px 0px 0px 23px;
     }
     section#Coding_Dojo_Saving_Content div#savingsReviews div#totalSaved label{
         font-weight: 100;
@@ -357,7 +349,7 @@ section{
         line-height: 22px;
         letter-spacing: 0.6px;
     }
-    section#Coding_Dojo_Saving_Content div#savingsReviews div#totalSaved h2{
+    section#Coding_Dojo_Saving_Content div#savingsReviews div#totalSaved h3{
         font-weight: 700;
         font-size: 26px;
         line-height: 32px;
@@ -376,11 +368,10 @@ section{
     section#Coding_Dojo_Fund_Bootcamp_Content{
         height: 463px;
         background-color: #FFFFFF;
-        padding: 62px 601px 20px 151px;
+        padding: 62px 601px 500px 248px;
     }
-    section#Coding_Dojo_Fund_Bootcamp_Content h1{
+    section#Coding_Dojo_Fund_Bootcamp_Content h2{
         width: 559px;
-        margin-bottom: 72px;
         font-style: normal;
         font-weight: 700;
         font-size: 40px;
@@ -396,13 +387,14 @@ section{
         line-height: 150%;
         letter-spacing: 0.6px;
         display: inline-block;
+        margin-top: 72px;
     }
-    section#Coding_Dojo_Fund_Bootcamp_Content div{
+    section#Coding_Dojo_Fund_Bootcamp_Content table{
         display: inline-block;
         vertical-align: top;
-        margin-left: 45px;
+        margin: 25px 0px 0px 45px;
     }
-    section#Coding_Dojo_Fund_Bootcamp_Content div label{
+    section#Coding_Dojo_Fund_Bootcamp_Content table tr th:nth-child(2){
         display: block;
         width: 123px;
         font-style: normal;
@@ -410,31 +402,32 @@ section{
         font-size: 16px;
         line-height: 140%;
         text-align: center;
-        margin: 0px 0px 12px 172px;
+        margin: 0px 0px 12px 5px;
     }
-    section#Coding_Dojo_Fund_Bootcamp_Content div ul{
-        display: inline-block;
-        vertical-align: top;
-        list-style: none;
-        padding: 0;
-        border-radius: 10px;
-        width: 295px;
-    }
-    section#Coding_Dojo_Fund_Bootcamp_Content div ul li{  
+    section#Coding_Dojo_Fund_Bootcamp_Content table tr td{
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 231%;
-        padding: 12px 20px;
+        padding: 13px 20px;
     }
-    section#Coding_Dojo_Fund_Bootcamp_Content div ul li span{
-        width: 50px;
-        height: 39px;
+    section#Coding_Dojo_Fund_Bootcamp_Content table tr:nth-child(2){
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    section#Coding_Dojo_Fund_Bootcamp_Content table tr:nth-child(2) td:nth-child(2){
         font-weight: 400;
         font-size: 12px;
-        line-height: 129%;
+        line-height: 15.48px;
         text-align: center;
     }
-    section#Coding_Dojo_Fund_Bootcamp_Content div ul li:nth-child(odd){
+    section#Coding_Dojo_Fund_Bootcamp_Content table tr td:first-child{
+        width: 165px;
+    }
+    section#Coding_Dojo_Fund_Bootcamp_Content table tr td:nth-child(2){
+        width: 126px;
+        text-align: center;
+    }
+    section#Coding_Dojo_Fund_Bootcamp_Content table tr:nth-child(even){
         background-color: rgba(196, 196, 196, 0.23);
     }
